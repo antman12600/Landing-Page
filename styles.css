@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.head-right, .head-left {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    gap: 8px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.header-content {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+.title {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    text-align: center;
+}
+.card {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.sign-up {
+    background-color: #3882F6;
+}
+
