@@ -70,7 +70,7 @@ a {
     padding: 10px;
     margin-left: -10px;
 }
-.sign-up {
+.sign-up, .sign-up2 {
     background-color: #3882F6;
     color: white;
     padding-top: 5px;
@@ -79,6 +79,7 @@ a {
     padding-right: 15px;
     font-weight: 900;
     border-radius: 5px;
+   
 }
 
 .middle-hero {
@@ -112,6 +113,7 @@ a {
 .quote-section {
     background-color: #e5e7eb;
     display: flex;
+    flex-shrink: 0;
     flex-direction: column;
     padding-left: 100px;
     padding-right: 100px;
@@ -132,3 +134,39 @@ a {
     font-size: 28px;
     justify-content: flex-end;
 }
+
+.call-to-action {
+    background-color: #3882F6;
+    width: 800px;
+    height: 50px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    border-radius: 30px;
+}
+
+.newsfeed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nf-header {
+    color:#e5e7eb;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nf-text {
+    color: #e5e7eb;
+    font-weight: 200;
+}
+
+
+
+
+
