@@ -108,3 +108,27 @@ a {
     font-weight: 200;
 
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+}
+
+.customer {
+    display: flex;
+    font-weight: bold;
+    font-size: 28px;
+    justify-content: flex-end;
+}
