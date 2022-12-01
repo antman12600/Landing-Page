@@ -79,6 +79,7 @@ a {
     padding-right: 15px;
     font-weight: 900;
     border-radius: 5px;
+    border-color: #e5e7eb;
    
 }
 
@@ -138,13 +139,15 @@ a {
 .call-to-action {
     background-color: #3882F6;
     width: 800px;
-    height: 50px;
+    height: 80px;
     padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
     margin: 70px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
     gap: 100px;
     border-radius: 30px;
 }
@@ -166,6 +169,12 @@ a {
     font-weight: 200;
 }
 
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: center;
+}
 
 
 
